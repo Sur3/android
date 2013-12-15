@@ -15,6 +15,9 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
+  <remote  name="schischu"
+           fetch="https://github.com/Schischu" />
+
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -36,19 +39,12 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="android_device_asus_flo" remote="omnirom" revision="android-4.3" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="android_device_asus_grouper" remote="omnirom" revision="android-4.3" />
-  <project path="device/asus/tilapia" name="android_device_asus_tilapia" remote="omnirom" revision="android-4.3" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="omnirom" revision="android-4.3" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
   <project path="device/moto/wingray" name="android_device_moto_wingray" remote="schischu" revision="android-4.3" />
-  <project path="device/moto/wingray-kernel" name="device/moto/stingray-kernel" groups="device,wingray" remote="schischu" revision="refs/tags/jb-mr2" />
+  <project path="device/moto/stingray-kernel" name="android_kernel_moto_wingray" remote="schischu" revision="jb-mr2" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
