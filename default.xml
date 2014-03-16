@@ -44,7 +44,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="c1e9a5fe7a7804e37c3d26449ee703eab4498182" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="155ca91c1253bcb85a0eeec93ded6da07122d4ff" />
-  <project path="device/moto/wingray" name="android_device_moto_wingray" remote="schischu" revision_old="android-4.4" revision="8ad65573479eb9a2be3653cbdac99d4704dfcfc4" />
+  <project path="device/moto/wingray" name="android_device_moto_wingray" remote="schischu" revision_old="android-4.4" revision="3de05a7c46903d24312f7e1945ea9525c8871841" />
   <project path="device/moto/stingray" name="android_device_moto_stingray" remote="schischu" revision_old="android-4.4" revision="5f04d35c1e8ec7fba60e4ecd75c1d7ab7dd2017e" />
   <project path="device/moto/everest" name="android_device_moto_everest" remote="schischu" revision_old="android-4.4" revision="bd21f6af4a92600720ad4671f0de80029140c565" />
   <!--project path="device/moto/stingray-kernel" name="android_kernel_moto_wingray" remote="schischu" revision="jb-mr2" /-->
