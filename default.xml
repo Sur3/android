@@ -22,7 +22,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk" remote="schischu" revision_old="android-4.4" revision="1537f86d1504e029596f5104fcf6799f987cd22b" />
+  <project path="build" name="android_build" groups="pdk" remote="schischu" revision_old="android-4.4" revision="1537f86d1504e029596f5104fcf6799f987cd22b" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
